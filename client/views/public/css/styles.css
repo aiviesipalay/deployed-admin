@@ -12069,3 +12069,40 @@ input[type="number"] {
       -ms-transform: rotate(135deg);
           transform: rotate(135deg);
 }
+/* activitylog */ 
+/* Style for the activity log container */
+.activity-log {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for individual activity items */
+.activity-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+/* Style for activity timestamp */
+.activity-timestamp {
+  margin-right: 10px;
+  font-size: 12px;
+  color: #999;
+}
+
+/* Style for activity user */
+.activity-user {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+/* Style for activity action */
+.activity-action {
+  flex: 1;
+  font-size: 14px;
+}
